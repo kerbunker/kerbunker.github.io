@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    padding: 10px 0;
+    background-color: darkslateblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+header h1 {
+    background-color: darkturquoise;
+    margin: 0;
+    font-size: 36px;
+    padding-left: 0;
+}
+
+header a{
+    color: rgb(118, 54, 155);
+    padding-left: 30px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    padding: 10px 15px;
+    color: darkturquoise;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact ul a {
+    padding: 10px 15px;
+}
