@@ -47,10 +47,98 @@ header nav ul li a{
     color: darkturquoise;
 }
 
+/*
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+*/
+
+
+
+.about-me {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.about h2 {
+    flex: 1 30%;
+}
+.about-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-img {
+    flex: 1 20%;
+    margin-right: 20px;
+}
+
+.work {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.work h2 {
+    flex: 1 30%;
+}
+
+.work-tiles {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-text {
+    flex: 12;
+}
+
+.about-text p {
+    font-size: 18px;
+}
+section div {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+.div-heading {
+    flex: 1 10%;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    border-right: darkviolet solid 3px;
+    margin-right: 50px;
+    height: 100%;
+}
+.div-heading h2 {
+    font-size: 40px;
+    text-align: right;
+}
+
 .contact {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .contact ul {
