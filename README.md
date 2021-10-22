@@ -16,6 +16,9 @@
     * These images are also slightly transparent but they become fully opaque when they are hovered over
 * The use of flexbox to help keep things spaced properly
 * Media queries to change the layout of the page for better viewing on smaller screens
+    * This includes having section titles stack in a column instead of in-line to help with spacing
+    * Images become the same sizes and are no longer in line to help enable small screen use
+    * Contact links stack in a column instead of overlapping in a row
 
 ### Links
 
