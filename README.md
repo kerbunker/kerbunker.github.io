@@ -20,6 +20,10 @@
     * Images become the same sizes and are no longer in line to help enable small screen use
     * Contact links stack in a column instead of overlapping in a row
 
+#### Challenges to work on
+
+Through this challenge, I had to overcome many obstacle. Most of the obstacles were regarding spacing. I thought I fixed an issue and then suddenly broke 3 more elements that were previously working. Flexbox proved very helpful for spacing the work links properly even when the page size was changed, but it seemed to cause problems for other parts of the page. These spacing problems and the use of flexbox will certainly be things I will want to practice to become more accustomed to them. 
+
 ### Links
 
 * Github repository: [kerbunker/kerbunker.github.io](https://github.com/kerbunker/kerbunker.github.io)

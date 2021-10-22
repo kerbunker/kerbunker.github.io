@@ -1,3 +1,4 @@
+/* Section for general use items */
 :root {
     --primary-color: rgb(157, 115, 192);
     --secondary-color: rgb(64, 12, 99);
@@ -13,6 +14,9 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(210, 205, 248);
 }
+/* End general section */
+
+/* Start Header Styles */
 header {
     padding: 10px 0;
     background-color: var(--third-color);
@@ -27,7 +31,6 @@ header h1 {
     margin: 0;
     font-size: 50px;
     padding-left: 0;
-    /*display: flex;*/
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
@@ -58,7 +61,9 @@ header nav ul li a{
     color: var(--primary-color);
     font-size: 30px;
 }
+/* End Header Styles */
 
+/* Start Hero Styling */
 .hero {
     display: flex;
     flex-wrap: wrap;
@@ -79,10 +84,11 @@ header nav ul li a{
     font-size: 50px;
     text-shadow: 4px 0 3px var(--secondary-color);
 }
+/* End Hero Styles */
 
+/* Styles for the 3 main sections */
 .main-content {
     display: flex;
-    /*flex-wrap: wrap;*/
     margin: 50px;
 }
 
@@ -94,8 +100,9 @@ header nav ul li a{
     color: var(--third-color);
     text-shadow: 4px 0 3px var(--primary-color);
 }
+/* End Main Styles */
 
-
+/* Start About Me Styles */
 .about-me {
     display: flex;
     align-items: center;
@@ -104,10 +111,6 @@ header nav ul li a{
 
 .about-info {
     border-left: var(--secondary-color) 5px solid;
-    /*flex: 2 70%;*/
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
-    /*align-items: center;*/
     padding-left: 40px;
     width: 75%;
 }
@@ -117,7 +120,9 @@ header nav ul li a{
     align-items: center;
     color: var(--third-color);
 }
+/* End About Me Styles */
 
+/* Start Work Styles */
 .work {
     justify-content: space-between;
 }
@@ -126,12 +131,9 @@ header nav ul li a{
 }
 
 .work-tiles {
-    /*flex: 1 70%;*/
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    /*size: 80%;*/
-    /*padding: 5px;*/
     border-left: var(--secondary-color) solid 5px;
 }
 
@@ -194,7 +196,9 @@ header nav ul li a{
     font-style: italic;
     font-size: 18px;
 }
+/* End Work Styles */
 
+/* Start Contact Me Styles */
 .contact {
     display: flex;
 }
@@ -217,17 +221,9 @@ header nav ul li a{
     margin-left: 20px;
     flex-wrap: wrap;
 }
+/* End Contact Me Styles */
 
-/*
-@media screen and (max-width: 1450px) {
-    .smaller-img {
-        max-width: 420px;
-        flex-grow: 2;
-    }
-
-}
-*/
-
+/* Media Queries for use with smaller screens */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
@@ -343,8 +339,6 @@ header nav ul li a{
         font-size: 30px
     }
 
-    @media screen and (max-width: 768px) {
 
-        
-    }
 }
+/* End Media Queries */
